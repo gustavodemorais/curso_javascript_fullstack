@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso do Switch</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Uso do Switch</h1>
+    <ul>
+        <li>
+            Neste exercicio faremso um conversor de distancia espaciais.
+        </li>
+        <li>
+            O objetivo é colocarmos uma distância em anos-luz(l.y.) e converter para uma unidade desejada
+        </li>
+    </ul>
+
+    <h3>O consersor deve:</h3>
+    <ol>
+        <li>
+            Perguntar a distancia em anos-luz
+        </li>
+        <br>
+        <li>
+            Oferecer uma lista de opções com
+            <ul>
+                <li>
+                    Parsec (pc)
+                </li>
+                <li>
+                    Unidade astronônima (AU)
+                </li>
+                <li>
+                    Quilômetros(km)
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Perguntar qual opreação deseja realizar
+            <ul>
+                <li>
+                    A respota receberá o número da opção escolhida
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Utilize o switch para verificar a opção escolhida pelo usuário
+            <ul>
+                <li>
+                    Armazenar o nome da unidade
+                </li>
+                <li>
+                    Armazenar o valor convertido de anos-luz para unidade desejada
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Exiba com alerta contendo a distância em anos-luz e a distância convertida para a opreação desejada
+            <ul>
+                <li>
+                    Distância em anos-luz : distância disgitiada em anos-luz
+                </li>
+                <li>
+                    Conversão desejada : distância convertida
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Utilizar as seguintes conversões
+            <ul>
+                <li>
+                    1 l.y = 0.3066601pc
+                </li>
+                <li>
+                    1 l.y = 63241.1 AU
+                </li>
+                <li>
+                    1 l.y = 9.5 *10 <sup>12</sup>
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Utilize a biblioteca Math para a conversão de anos-luz para Quilômetros
+            <ul>
+                <li>
+                    Utilize Math.pow(10,12) para obter o valor de 10 <sup>12</sup> na conversão de anos-luz para Quilômetros
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Caso o usuário digite uma opção que não seja ma das três, em vez do nome da distância e da conversão, deve ser exibido:
+            <ul>
+                <li>
+                    distância em anos-luz: distancia digitada em anos-luz
+                </li>
+                <li>
+                    Unidade não identificada: Conversão fora de escopo
+                </li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
